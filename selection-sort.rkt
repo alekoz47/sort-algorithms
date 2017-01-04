@@ -16,9 +16,9 @@
            (big-list-acc (cons (random n) rsf)
                          (sub1 n)))))
   (big-list-acc empty n))
+
 (define L6 (big-list 1000))
 (define L7 (big-list 10000))
-(define L8 (big-list 100000))
 
 ;; Define selection-sort algorithm
 ;; ================================
@@ -77,5 +77,3 @@ L6
 (time (selection-sort L6))
 L7
 (time (selection-sort L7))
-L8
-(time (selection-sort L8))
